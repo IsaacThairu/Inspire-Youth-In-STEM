@@ -1,0 +1,17 @@
+bank="EQUITY BANK"
+branch="CBD"
+date="8th feb 2023"
+f_name="Bob"
+s_name="Afwata"
+acc_num="578834893"
+acc_bal="902000"
+print(" ------------------")
+print("",    bank          )
+print("   ", branch        )
+print("",     date         )
+print("",     f_name       )
+print("",     s_name       )
+print("",     acc_num      )
+print("",     acc_bal      )
+print("-------------------")
+

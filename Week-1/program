@@ -1,0 +1,17 @@
+f_num=input("enter first number :")
+s_num=input("enter second number:")
+#convert the string into integers
+sum_num=int(f_num)+int(s_num)
+print("the sum of the numbers is",sum_num)
+diff_num=int(f_num)-int(s_num)
+prod_num=int(f_num)*int(s_num)
+quotient_num=int(f_num)/int(s_num)
+print("the difference between the numbers is",diff_num)
+print("the product of the numbers is",prod_num)
+print("the quotient of the two numbers is",quotient_num)
+
+
+
+
+      
+

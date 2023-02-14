@@ -1,0 +1,12 @@
+#assignment4
+print("|------------------------------------------------------------------|")
+print("|                        EQUITY BANK                               |")
+print("|                        CBD BRANCH                                |")
+print("|                        FEBRUARY 8,2023                           |")
+print("|------------------------------------------------------------------|")
+print("|                       FIRST NAME: BOB                            |")
+print("|                       SECOND NAME: AFWATA                        |")
+print("|                       ACCOUNT NUMBER:560,000                     |")
+print("|                       ACCOUNT BALANCE:1236492749                 |")
+print("|                                                                  |")
+print("|------------------------------------------------------------------|")
