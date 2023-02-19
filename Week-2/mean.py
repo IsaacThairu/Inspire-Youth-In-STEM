@@ -3,5 +3,5 @@ sum_num= 0
 for number in numbers:
     sum=sum_num + number
     avg_num=sum/10
-    print("the mean of the numbers is,avg_num")
+    print("the mean of the numbers is",avg_num)
     
