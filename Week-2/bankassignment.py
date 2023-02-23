@@ -11,22 +11,40 @@
 #30% if tax income is above 300k
 #5% if income is less than 100k
 
-#Formulae gross_income=net_income + taxe
-
-net_income=int(input("Enter your net income:"))
+#Formulae net_income=gross_income - taxes
 
 #above 300k
-if (net_income>=300000):
-    gross_income=-net_income + ((30/100)*net_income)
-    print("Since your net income is{} your gross income is{}".format(net_income,int(gross_income)))
 
-#150k to less than 300k
-if (net_income>=150000) & (net_income <300000):
-    gross_income=net_income +((19/100)*net_income)
-    print("Since your income is {} your gross income {}".format(net_income,int(gross_income)))
+gross_income=int (input("what is your gross income:"))
+taxgroup_a=(gross_income*5/100)
+taxgroup_b=(gross_income*16/100)
+taxgroup_c=(gross_income*19/100)
+taxgroup_d=(gross_income*30/100)
+
+if gross_income <100000:
+    print("gross_income",gross_income)
+    print("net_income",gross_income-taxgroup_a)
 
 
-if(net_income >= 1) & (net_income < 100000):
-	gross_income = net_income + ((5/100)*net_income)
-	print("Since Your Net income is {} your Gross income is {}".format(net_income, int(gross_income)))
+elif (gross_income >=100001) & (gross_income <150000):
+      print("gross_income",gross_income)
+      print("net_income",gross_income-taxgroup_b)
 
+elif(gross_income>=150001) & (gross_income<300000):
+     print("gross_income",gross_income)
+     print("net_income",gross_income-taxgroup_c)
+
+elif(gross_income>=300001):
+     print("gross_income",gross_income)
+     print("net_income",gross_income-taxgroup_d)
+     
+
+
+
+
+
+
+
+      
+
+     
