@@ -1,0 +1,22 @@
+*body{
+    background-color: burlywood;
+}
+    .h1{
+        font-size:30px;
+        color: coral;
+        align-self: center;
+       font-family: Arial serif;
+       font-weight: bold;
+       font-size: 12px;
+    }
+p{
+    background-color: darkgray(56, 18, 93);
+    color: coral;
+    font-size: 20px;
+    align-self: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+   
+
